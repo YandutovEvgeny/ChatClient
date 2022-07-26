@@ -1,0 +1,22 @@
+﻿<Window x:Class="ChatClientApp.RegistrationWidow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatClientApp"
+        mc:Ignorable="d"
+        Title="RegistrationWidow" Height="267.857" Width="245.238">
+    <Grid>
+        <StackPanel Margin="10">
+            <Label HorizontalAlignment="Center">Введите имя</Label>
+            <TextBox x:Name="RegistrationNameTB" HorizontalAlignment="Center" Width="200"></TextBox>
+            <Label HorizontalAlignment="Center">Введите логин</Label>
+            <TextBox x:Name="RegistrationLoginTB" HorizontalAlignment="Center" Width="200"></TextBox>
+            <Label HorizontalAlignment="Center">Введите пароль</Label>
+            <TextBox x:Name="RegistrationPasswordTB" HorizontalAlignment="Center" Width="200"></TextBox>
+            <Label HorizontalAlignment="Center">Введите электронную почту</Label>
+            <TextBox x:Name="RegistrationEmailTB" HorizontalAlignment="Center" Width="200"></TextBox>
+            <Button Click="RegistrationB_Click" HorizontalAlignment="Center" x:Name="RegistrationB" Margin="0,10,0,0">Зарегистрироваться</Button>
+        </StackPanel>
+    </Grid>
+</Window>
